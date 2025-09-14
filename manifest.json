@@ -1,0 +1,21 @@
+{
+  "name": "My PWA test Site",
+  "short_name": "TPWA",
+  "description": "An iSpring presentation for offline viewing.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#dcdee0",
+  "theme_color": "#dcdee0",
+  "icons": [
+    {
+      "src": "data/apple-touch-icon.png",  // Path to your icon
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "data/apple-touch-icon.png",  // Path to your icon
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
