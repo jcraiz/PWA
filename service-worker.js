@@ -1,31 +1,29 @@
 const cacheName = 'ispring-presentation-cache-v1';
 const filesToCache = [
-  'index.html',
-  'manifest.json',
-  'data\apple-touch-icon.png',
-  'data\browsersupport.js',
-  'data\eraser.cur',
-  'data\favicon.ico',
-  'data\filelist.txt',
-  'data\fnt0.woff',
-  'data\fnt1.woff',
-  'data\fnt2.woff',
-  'data\fnt3.woff',
-  'data\fnt4.woff',
-  'data\fnt5.woff',
-  'data\highlighter.cur',
-  'data\html5-unsupported.html',
-  'data\img0.png',
-  'data\img1.png',
-  'data\img2.png',
-  'data\img3.png',
-  'data\lock.cur',
-  'data\marker.cur',
-  'data\player.js',
-  'data\slide1.css',
-  'data\slide1.js',
-  'data\slide2.css',
-  'data\slide2.js'
+  'data/apple-touch-icon.png',
+ 'data/browsersupport.js',
+ 'data/eraser.cur',
+ 'data/favicon.ico',
+ 'data/filelist.txt',
+ 'data/fnt0.woff',
+ 'data/fnt1.woff',
+ 'data/fnt2.woff',
+ 'data/fnt3.woff',
+ 'data/fnt4.woff',
+ 'data/fnt5.woff',
+ 'data/highlighter.cur',
+ 'data/html5-unsupported.html',
+ 'data/img0.png',
+ 'data/img1.png',
+ 'data/img2.png',
+ 'data/img3.png',
+ 'data/lock.cur',
+ 'data/marker.cur',
+ 'data/player.js',
+ 'data/slide1.css',
+ 'data/slide1.js',
+ 'data/slide2.css',
+ 'data/slide2.js'
   
 ];
 
@@ -65,4 +63,5 @@ self.addEventListener('fetch', function(event) {
       }
     )
   );
+
 });
